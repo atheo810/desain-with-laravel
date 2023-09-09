@@ -19,11 +19,18 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
-        $post = Post::create([
+        Post::create([
             'name' => 'Expanding Card',
             'css_name' => 'expandingcard',
             'js_name' => 'expandingcard',
             'slug' => 'expanding-card',
+        ]);
+
+        Post::create([
+            'name' => 'Progress Steps',
+            'css_name' => 'progress-steps',
+            'js_name' => 'progress-steps',
+            'slug' => 'progress-steps',
         ]);
     }
 }
