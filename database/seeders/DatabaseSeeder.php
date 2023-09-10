@@ -32,5 +32,12 @@ class DatabaseSeeder extends Seeder
             'js_name' => 'progress-steps',
             'slug' => 'progress-steps',
         ]);
+
+        Post::create([
+            'name' => 'Rotating Navigation Animation',
+            'css_name' => 'rotating-navigation-animation',
+            'js_name' => 'rotating-navigation-animation',
+            'slug' => 'rotating-navigation-animation',
+        ]);
     }
 }
